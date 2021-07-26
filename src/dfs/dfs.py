@@ -1,6 +1,6 @@
 from typing import List
 
-from graph import Graph
+from dfs.graph import Graph
 
 
 class DFS:

@@ -4,9 +4,9 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(
-    name='graph-dfs',
+    name='dfs',
     version='0.0.1',
-    description='Module for creating graphs and performing depth first searches.',
+    description='Module for creating graphs and performing depth first search.',
     py_modules=['dfs', 'dfs/graph.py', 'dfs/dfs.py', 'dfs/test_dfs.py'],
     package_dir={'': 'src'},
     classifiers=[
@@ -18,5 +18,10 @@ setup(
         "License :: MIT License",
         "Operating System :: OS Independent"
     ],
-    long_description=long_description
+    long_description=long_description,
+    extra_requires={
+        'dev': [
+            'pytest>=3.7',
+        ]
+    }
 )

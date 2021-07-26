@@ -1,5 +1,5 @@
-from dfs import DFS
-from graph import Graph
+from dfs.dfs import DFS
+from dfs.graph import Graph
 
 
 def get_sample_graph() -> Graph:
