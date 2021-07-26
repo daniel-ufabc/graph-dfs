@@ -4,7 +4,7 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(
-    name='dfs',
+    name='graph-dfs',
     version='0.0.1',
     description='Module for creating graphs and performing depth first search.',
     py_modules=['dfs', 'dfs/graph.py', 'dfs/dfs.py', 'dfs/test_dfs.py'],
