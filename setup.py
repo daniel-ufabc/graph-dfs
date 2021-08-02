@@ -1,14 +1,15 @@
-from setuptools import setup
+import setuptools
 
 with open('README.md') as f:
     long_description = f.read()
 
-setup(
+setuptools.setup(
     name='graph-dfs',
-    version='0.0.2',
+    version='0.0.5',
     description='Module for creating graphs and performing depth first search.',
     py_modules=['dfs'],
     package_dir={'': 'src'},
+    packages=setuptools.find_packages(where="src"),
     url="https://github.com/daniel-ufabc/graph-dfs",
     author="Daniel M. Martin",
     author_email="danielmmartin@gmail.com",

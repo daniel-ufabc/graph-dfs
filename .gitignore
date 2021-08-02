@@ -2,3 +2,8 @@ __pycache__/
 .idea/
 .pytest_cache/
 venv/
+.tox/
+build/
+dist/
+src/graph_dfs.egg-info/
+
