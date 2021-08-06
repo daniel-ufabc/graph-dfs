@@ -34,5 +34,5 @@ dfs.start()
 If you desire to obtain a topological sorting of the graph, then do so after a DFS with:
 
 ```python
-dfs.opological_sorting()
+dfs.topological_sorting()
 ```
