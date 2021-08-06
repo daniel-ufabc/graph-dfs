@@ -1,11 +1,16 @@
 # Graph-DFS
 
-This package allows for the creation of graphs. It also provides the depth first search algorithm. 
+This package allows for the creation of graphs. It also provides the depth first search algorithm.
+
+## Installation
+
+```shell
+pip install graph-dfs
+```
 
 ## How to use it?
 
-To create a 
-graph, do:
+To create a graph, do:
 
 ```python
 g = Graph(n)
@@ -25,14 +30,6 @@ with:
 dfs = DFS(g)
 dfs.start()
 ```
-
-## Installation
-
-```shell
-pip install graph-dfs
-```
-
-
 
 If you desire to obtain a topological sorting of the graph, then do so after a DFS with:
 
