@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "graph-dfs"
-version = "0.0.7"
+version = "0.0.8"
 description = "Graphs and Depth First Search"
 authors = ["Daniel M. Martin <danielmmartin@gmail.com>"]
 homepage = "https://github.com/daniel-ufabc/graph-dfs"
